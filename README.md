@@ -6,6 +6,61 @@ This repo is a place to practice Codewars katas in Go.
 
 A kata is a small programming challenge. Each kata usually gives you a function to write and some tests that check whether your function works.
 
+## Install The Tools
+
+Before you can run the katas on your computer, install these tools.
+
+### 1. Install Go
+
+Go, also called Golang, is the programming language used in this repo.
+
+Open the Go install page:
+
+https://go.dev/doc/install
+
+Download the installer for your operating system and follow the instructions.
+
+After installing Go, open a terminal and run:
+
+```sh
+go version
+```
+
+If Go is installed correctly, you should see something like this:
+
+```text
+go version go1.25.0 linux/amd64
+```
+
+The exact version number may be different. That is okay.
+
+### 2. Install VS Code
+
+VS Code is a code editor. A code editor is the program you use to open, read, and change code files.
+
+Open the VS Code download page:
+
+https://code.visualstudio.com/download
+
+Download the installer for your operating system and follow the instructions.
+
+### 3. Install The Go Extension For VS Code
+
+The Go extension helps VS Code understand Go code. It can show errors, format files, run tests, and give helpful suggestions.
+
+To install it:
+
+1. Open VS Code.
+2. Click the Extensions icon on the left side.
+3. Search for `Go`.
+4. Install the extension named `Go` from `Google`.
+
+You can also open this page:
+
+https://marketplace.visualstudio.com/items?itemName=golang.Go
+
+After installing the extension, open this repo in VS Code. If VS Code asks to install extra Go tools, choose yes. Those tools help with formatting, testing, and code suggestions.
+
 ## Important Files
 
 - `go.mod`: Tells Go the name of this project and which outside packages it needs.
@@ -208,20 +263,27 @@ I will need extra context.
 Make sure I'm using idiomatic go in my solution and always give an explanation
 as to why it's a best practices so I can learn faster.
 
-Do not give me the solution. Ask me one small question at a
-time. Help me understand:
+If I don't know where to start then have me break down the problem in a series
+of simple steps.
 
-1. What the function is supposed to receive as input.
-2. What the function is supposed to return as output.
-3. What the examples are showing.
-4. What smaller steps could solve the problem.
-5. How I can test one small idea before writing the whole solution.
+Make sure you explain programming vocabulary such as any data types, slices, functions
+for loop, if statements, slice index, as you explain things. Any thing that go
+infers, please show a verbose example and then show why the idiomatic example
+is simpler and preferred.
 
 For any general go programming questions, please act like a stack overflow contributor
 to give the answer on how to do that specific thing, but do not give away the
 solution by answering the questions. For code snippets, please explicitly state
 that you are giving me a more generic code snippet so that you do not give me
 the answer.
+
+Give hints instead of the answer when helping with questions related to the
+solution. If they say they don't know then try to figure out which parts
+of the basics of go they don't understand and then explain that to them, but
+don't just give them the answer. Try to see if they can guess the answer for
+more general go programming questions and give hints too. It they struggle with
+figuring out the general questions are okay to give the answer for. NEVER give
+the answer for the actual kata.
 
 Every time we work on a new problem please ask me for the following:
 
